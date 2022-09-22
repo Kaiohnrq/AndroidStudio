@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dice App</string>
+    <string name="rola_dado_6_lados">Rola Dado 6 Lados</string>
+    <string name="rola_dado_12_lados">Rola DADO 12 LADOS</string>
+    <string name="rola_dado_20_dados">rola dado 20 dados</string>
+    <string name="escolha_o_numero_de_lados_do_dado">ESCOLHA O NUMERO DE LADOS DO DADO:</string>
+    <string name="jogo_dos_dados">Jogo dos dados</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+</resources>
