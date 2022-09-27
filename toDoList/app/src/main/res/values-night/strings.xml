@@ -5,4 +5,5 @@
     <string name="salvar">Salvar</string>
     <string name="categoria">Categoria</string>
     <string name="apagar_tarefa">APAGAR TAREFA</string>
+    <string name="deletar_tarefa">Deletar Tarefa</string>
 </resources>

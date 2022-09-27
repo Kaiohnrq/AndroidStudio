@@ -7,27 +7,30 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
+import com.example.todolist.databinding.FragmentFormBinding
+import com.example.todolist.databinding.FragmentListBinding
 
 class FormFragment : Fragment() {
+
+    private lateinit var binding: FragmentFormBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        val view = inflater.inflate(R.layout.fragment_form, container, false)
+    binding = FragmentFormBinding.inflate(layoutInflater, container, false)
 
-        val buttonSalvar = view.findViewById<Button>(R.id.buttonSalvar)
-        buttonSalvar.setOnClickListener {
+
+    binding.buttonSalvar.setOnClickListener {
             findNavController().navigate(R.id.listFragment)
         }
 
-        val buttonCancelar = view.findViewById<Button>(R.id.buttonCancelar)
-        buttonCancelar.setOnClickListener {
+    binding.buttonCancelar.setOnClickListener {
             findNavController().navigate(R.id.listFragment)
         }
 
-        return view
+        return binding.root
     }
 
 }
