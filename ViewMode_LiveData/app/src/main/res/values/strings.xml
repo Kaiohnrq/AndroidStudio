@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewMode_LiveData</string>
+    <string name="contagem_de_cliques">Contagem de cliques!</string>
+    <string name="clique_aqui">Clique Aqui</string>
+</resources>
