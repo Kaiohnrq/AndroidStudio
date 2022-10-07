@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FirstLocalAppDB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">1</string>
+    <string name="kaio">Kaio</string>
+    <string name="_25">25</string>
+    <string name="henrique">Henrique</string>
+    <string name="digite_seu_primeiro_nome">Digite Seu Primeiro Nome</string>
+    <string name="digite_sua_idade">Digite Sua Idade</string>
+    <string name="digite_seu_sobrenome">Digite Seu Sobrenome</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="todo">TODO</string>
+</resources>
