@@ -80,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="#8E7C06"
             android:text="@string/deletar_tarefa"
             android:textSize="22sp" />
     </LinearLayout>
